@@ -197,7 +197,7 @@ std::vector<Message> get_messages(httplib::Client &cli, unsigned long int sessio
 
 // Основная функция
 auto main() -> int {
-    httplib::Client cli("localhost", 8080); // Создаем клиент для подключения к серверу
+    httplib::Client cli("localhost", 8000); // Создаем клиент для подключения к серверу
 
     // Создаем двух пользователей
     create_user(cli, "Jhon Doe", "qwerty");

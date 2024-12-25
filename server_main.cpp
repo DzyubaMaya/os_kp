@@ -293,7 +293,7 @@ auto main() -> int {
     });
 
     // Запуск сервера
-    std::cout << "starting chat server on port 8080 ..." << std::endl;
-    svr.listen("0.0.0.0", 8080);
+    std::cout << "starting chat server on port 8000 ..." << std::endl;
+    svr.listen("0.0.0.0", 8000);
     return 0;
 }
